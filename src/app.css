@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.products {
+display: flex;
+flex-wrap: wrap;
+}
+.product li img{height: 130px;}
+.discription{
+    border:  1px solid black;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+}
+.header ul{
+    display: flex;
+
+}
+.header ul li {
+    justify-content: space-around;
+    padding: 0 10px;
+    text-decoration:none;
+    list-style: none;
+
+}
+.header ul li a{
+    text-decoration: none;
+    color: black;
+}
