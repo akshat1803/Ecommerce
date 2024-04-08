@@ -19,6 +19,7 @@ const Cart = ({cart , setCart}) => {
           ))}
           </ul>
     </div>
+
   )
 }
 

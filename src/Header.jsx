@@ -1,5 +1,6 @@
 import React from 'react'
 import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
+import { Link } from 'react-router-dom';
 
 
 const Header = ({cartItem , setCartItem}) => {
@@ -13,7 +14,7 @@ const Header = ({cartItem , setCartItem}) => {
             <li><a href="">SHOP</a></li>
             <li><a href="">FOR-MENS</a></li>
             <li><a href="">FOR-WOMENS</a></li>
-            <li><a href=""><ShoppingCartIcon/></a></li>
+           <Link to={"/cart"}> <li><ShoppingCartIcon/><span>{cartItem.length}</span></li></Link>
 
           </ul>
         </div>
